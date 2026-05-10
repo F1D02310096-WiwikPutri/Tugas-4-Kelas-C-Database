@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android=
+        "http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+
+            android:layout_width="32dp"
+
+            android:layout_height="32dp"
+
+            android:src=
+                "@android:drawable/ic_media_previous" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Tambah Mahasiswa"
+
+            android:textSize="24sp"
+
+            android:textStyle="bold"
+
+            android:layout_marginTop="12dp"
+
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etName"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Nama"
+
+            android:background="@drawable/edit_text_bg"
+
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNim"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="NIM"
+
+            android:background="@drawable/edit_text_bg"
+
+            android:layout_marginBottom="12dp" />
+
+        <Spinner
+            android:id="@+id/spProdi"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Email"
+
+            android:background="@drawable/edit_text_bg"
+
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etSemester"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:hint="Semester"
+
+            android:inputType="number"
+
+            android:background="@drawable/edit_text_bg"
+
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="SIMPAN" />
+
+    </LinearLayout>
+
+</ScrollView>
